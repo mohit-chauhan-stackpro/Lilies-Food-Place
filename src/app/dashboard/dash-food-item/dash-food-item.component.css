@@ -4,4 +4,33 @@
   background: rgba(255, 255, 255, 0.83);
   border: 0.3px solid rgba(0, 48, 46, 0.14);
   border-radius: 5px;
+  position: relative;
+}
+.item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image {
+  width: 90px;
+  height: 90px;
+}
+.image img {
+  border: 50%;
+}
+.upper-para {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 33px;
+  text-align: center;
+  color: #00302e;
+}
+.lower-para {
+}
+.price-comp {
+}
+.price {
+}
+
+.add-to-cart {
 }
