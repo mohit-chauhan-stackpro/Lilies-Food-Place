@@ -1,13 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .container {
   width: 1440px;
   height: 900px;
   background: #ffffff;
   display: flex;
   flex-direction: row;
+  flex-direction: row;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
 }
 .image-div {
   width: 764px;
