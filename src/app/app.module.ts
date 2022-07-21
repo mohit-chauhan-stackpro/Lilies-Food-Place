@@ -11,6 +11,7 @@ import { SideNavComponent } from './side-nav/side-nav.component';
 import { CartComponent } from './cart/cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
 import { OrderComponent } from './order/order.component';
+import { DashFoodItemComponent } from './dashboard/dash-food-item/dash-food-item.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { OrderComponent } from './order/order.component';
     SideNavComponent,
     CartComponent,
     CheckoutComponent,
-    OrderComponent
+    OrderComponent,
+    DashFoodItemComponent
   ],
   imports: [
     BrowserModule,
