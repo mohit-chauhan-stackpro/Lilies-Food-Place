@@ -5,8 +5,16 @@
 .conatiner {
   /* background: #fbfbfb; */
   /* background-color: pink; */
-  background: #fbfbfb;
+  /* background: #fbfbfb;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px; */
+  background: #fbfbfb;
+  /* height: 100%; */
+  height: 100vh;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   align-items: center;

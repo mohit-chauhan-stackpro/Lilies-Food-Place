@@ -1,73 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .container {
-  width: 1440px;
-  height: 900px;
   background: #ffffff;
   display: flex;
   flex-direction: row;
-  flex-direction: row;
-  font-family: "Poppins";
-  font-style: normal;
+  gap: 81px;
   font-weight: 400;
+  height: 100vh;
 }
 .image-div {
-  width: 764px;
-  height: 100%;
-  background: url(./signup-image.svg);
+  width: 50vw;
+  background: url(../../assets/image/signup-image.svg);
+  background-repeat: no-repeat;
   border-radius: 7px;
-}
-
-.form-div {
-  width: 676px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-size: cover;
 }
 .form {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 84px;
+  width: 100%;
+  height: 100%;
 }
 .top-p {
-  width: 247px;
-  height: 33px;
+  text-align: center;
   font-weight: 600;
   font-size: 27px;
   color: #00302e;
   margin-bottom: 41px;
 }
+.input-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 107px 0px 81px;
+}
 #inputbox {
-  display: block;
-  width: 488px;
-  height: 71px;
-  border-radius: 5px;
-  border: 1px solid rgba(251, 221, 187, 0.51);
-  padding-top: 10px;
-  padding-left: 25px;
-  padding-bottom: 10px;
-  font-weight: 400;
+  width: 100%;
+  margin-bottom: 30px;
   font-size: 14px;
-  margin-top: 28px;
+  border: 1px solid rgba(251, 221, 187, 0.51);
+  border-radius: 5px;
+  padding: 20px 25px;
 }
 .button {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 15px 40px;
-  gap: 10px;
   width: 100%;
-  height: 60px;
+  padding: 15px 200px;
   background: #00302e;
   border-radius: 5px;
   color: #fbddbb;
-  font-family: "Rubik";
-  font-style: normal;
   font-weight: 500;
   cursor: pointer;
 }
