@@ -10,6 +10,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 56px;
 }
 .image {
   width: 90px;
@@ -26,11 +27,35 @@
   color: #00302e;
 }
 .lower-para {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 21px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.69);
+  width: 172px;
 }
 .price-comp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 56px;
+  justify-content: center;
+  margin-top: 22px;
 }
 .price {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 33px;
+  color: #00302e;
 }
 
 .add-to-cart {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 33px;
+  text-align: right;
+  color: #06e775;
+  border: none;
+  background-color: white;
+  cursor: pointer;
 }
