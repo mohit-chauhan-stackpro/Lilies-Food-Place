@@ -13,14 +13,10 @@
       </div>
     </div>
     <div class="food-items">
-      <app-dash-food-item></app-dash-food-item>
-      <app-dash-food-item></app-dash-food-item>
-      <app-dash-food-item></app-dash-food-item>
-      <app-dash-food-item></app-dash-food-item>
-      <app-dash-food-item></app-dash-food-item>
-      <app-dash-food-item></app-dash-food-item>
-      <app-dash-food-item></app-dash-food-item>
-      <app-dash-food-item></app-dash-food-item>
+      <app-dash-food-item
+        *ngFor="let foodItem of foodItems"
+        [foodItem]="foodItem"
+      ></app-dash-food-item>
     </div>
   </div>
 </div>

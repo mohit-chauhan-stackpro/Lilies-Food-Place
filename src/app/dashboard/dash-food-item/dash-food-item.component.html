@@ -1,13 +1,13 @@
 <div class="container">
   <div class="item-details">
     <div class="image">
-      <img src="../../../assets/image/dash-food-item-image.png" />
+      <img src="{{ foodItem.imgPath }}" />
     </div>
-    <div class="upper-para">Stir Fry Pasta</div>
-    <div class="lower-para">The in-house pasta and chicken by chef Moose</div>
+    <div class="upper-para">{{ foodItem.name }}</div>
+    <div class="lower-para">{{ foodItem.description }}</div>
   </div>
   <div class="price-comp">
-    <div class="price">N 1,000.00</div>
+    <div class="price">{{ foodItem.price }}</div>
     <button class="add-to-cart">Add to cart</button>
   </div>
 </div>
