@@ -27,7 +27,18 @@ export class OrderItemService {
       price: 1000,
       status: 'deliverd',
     },
+    {
+      name: 'Stir Fry Pasta',
+      imgPath: '../../../assets/image/dash-food-item-image.png',
+      quantity: 4,
+      price: 1000,
+      status: 'deliverd',
+    },
   ];
 
   constructor() {}
+
+  getOrderSize() {
+    return this.orders.length;
+  }
 }
