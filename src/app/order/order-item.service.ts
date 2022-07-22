@@ -11,21 +11,21 @@ export class OrderItemService {
       imgPath: '../../../assets/image/dash-food-item-image.png',
       quantity: 4,
       price: 1000,
-      status: 'deleverd',
+      status: 'deliverd',
     },
     {
       name: 'Stir Fry Pasta',
       imgPath: '../../../assets/image/dash-food-item-image.png',
       quantity: 4,
       price: 1000,
-      status: 'deleverd',
+      status: 'deliverd',
     },
     {
       name: 'Stir Fry Pasta',
       imgPath: '../../../assets/image/dash-food-item-image.png',
       quantity: 4,
       price: 1000,
-      status: 'deleverd',
+      status: 'deliverd',
     },
   ];
 
