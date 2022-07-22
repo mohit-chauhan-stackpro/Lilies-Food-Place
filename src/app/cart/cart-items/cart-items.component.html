@@ -1,16 +1,16 @@
 <div class="container">
   <div class="content">
     <div class="left-side-items">
-      <img class="image" src="../../../assets/image/dash-food-item-image.png" />
+      <img class="image" src="{{ cartItem.imgPath }}" />
       <div class="item-info">
-        <div class="upper-p">Stir Fry Pasta</div>
-        <div class="lower-p">Remove</div>
+        <div class="upper-p">{{ cartItem.name }}</div>
+        <div class="lower-p" (click)="removeFromCart(id)">Remove</div>
       </div>
     </div>
     <div class="right-side-items">
-      <div class="qty">3</div>
-      <div class="price">N 1,000.00</div>
-      <div class="sub-total">N 3,000.00</div>
+      <div class="qty">{{ cartItem.quantity }}</div>
+      <div class="price">Rs. {{ cartItem.price }}</div>
+      <div class="sub-total">Rs.{{ 3 * cartItem.price }}</div>
     </div>
   </div>
 </div>

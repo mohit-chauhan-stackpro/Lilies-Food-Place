@@ -3,7 +3,7 @@ export class FoodItem {
     public name: string,
     public description: string,
     public imgPath: string,
-    public price: string,
+    public price: number,
     public time: string,
     public available: number
   ) {}

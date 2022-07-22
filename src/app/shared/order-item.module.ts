@@ -1,9 +1,9 @@
-export class CartItem {
+export class OrderItem {
   constructor(
     public name: string,
-    public description: string,
     public imgPath: string,
+    public quantity: number,
     public price: number,
-    public quantity: number
+    public status: string
   ) {}
 }

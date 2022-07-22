@@ -11,10 +11,12 @@
     </div>
     <!-- cart items -->
     <div class="cart-items">
-      <app-cart-items></app-cart-items>
-      <app-cart-items></app-cart-items>
-      <!-- <app-cart-items></app-cart-items> -->
-      <!-- <app-cart-items></app-cart-items> -->
+      <app-cart-items
+        *ngFor="let cartItem of cartItems; let i = index"
+        [cartItem]="cartItem"
+        [id]="i"
+      >
+      </app-cart-items>
     </div>
     <div class="final-total">
       <div class="total">Total:</div>
