@@ -5,10 +5,12 @@
   flex-direction: row;
   gap: 68px;
 }
+/*
+
 .left-side-nav {
   width: 20%;
   height: 100%;
-}
+} */
 .right-side {
   width: 80%;
   height: 100%;

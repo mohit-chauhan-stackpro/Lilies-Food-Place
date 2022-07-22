@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .container {
-  width: 1440px;
-  height: 900px;
   background: #ffffff;
   display: flex;
   flex-direction: row;
@@ -10,15 +8,14 @@
   font-weight: 400;
 }
 .image-div {
-  width: 764px;
-  height: 100%;
-  background: url(./login-image.svg);
+  background: url(../../assets/image/login-image.svg);
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 100vh;
   border-radius: 7px;
 }
 
 .form-div {
-  width: 676px;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,8 +55,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* padding: 15px 40px;
-  gap: 10px; */
+  padding: 15px 40px;
+  gap: 10px;
   width: 100%;
   height: 60px;
   background: #00302e;
@@ -67,6 +64,61 @@
   color: #fbddbb;
   font-family: "Rubik";
   font-style: normal;
+  font-weight: 500;
+  cursor: pointer;
+} ***/
+.container {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 81px;
+  font-weight: 400;
+  height: 100vh;
+}
+.image-div {
+  width: 50vw;
+  background: url(../../assets/image/login-image.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 7px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.top-p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 27px;
+  color: #00302e;
+  margin-bottom: 41px;
+}
+.input-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0px 107px 0px 81px;
+}
+#inputbox {
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 14px;
+  border: 1px solid rgba(251, 221, 187, 0.51);
+  border-radius: 5px;
+  padding: 20px 25px;
+}
+.button {
+  width: 100%;
+  padding: 15px 200px;
+  background: #00302e;
+  border-radius: 5px;
+  color: #fbddbb;
   font-weight: 500;
   cursor: pointer;
 }
