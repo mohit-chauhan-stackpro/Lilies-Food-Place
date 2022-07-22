@@ -19,4 +19,6 @@ export class SideNavComponent implements OnInit {
     this.cartSize = this.cartItemService.getCartSize();
     this.orderSize = this.orderItemService.getOrderSize();
   }
+  displayCart() {}
+  displayOrders() {}
 }
