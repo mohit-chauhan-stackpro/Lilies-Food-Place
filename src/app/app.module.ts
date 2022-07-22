@@ -14,6 +14,7 @@ import { OrderComponent } from './order/order.component';
 import { DashFoodItemComponent } from './dashboard/dash-food-item/dash-food-item.component';
 import { FoodItemService } from './dashboard/dash-food-item/food-item.service';
 import { FoodItemDetailComponent } from './food-item-detail/food-item-detail.component';
+import { CartItemsComponent } from './cart/cart-items/cart-items.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FoodItemDetailComponent } from './food-item-detail/food-item-detail.com
     CheckoutComponent,
     OrderComponent,
     DashFoodItemComponent,
-    FoodItemDetailComponent
+    FoodItemDetailComponent,
+    CartItemsComponent
   ],
   imports: [
     BrowserModule,
