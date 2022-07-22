@@ -11,8 +11,11 @@
     </div>
     <!-- order items -->
     <div class="order-items">
-      <app-order-item></app-order-item>
-      <app-order-item></app-order-item>
+      <app-order-item
+        *ngFor="let order of orders; let i = index"
+        [order]="order"
+        [id]="i"
+      ></app-order-item>
     </div>
   </div>
 </div>
