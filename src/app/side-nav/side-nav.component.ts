@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { CartItemService } from '../cart/cart-item.service';
 import { OrderItemService } from '../order/order-item.service';
 
@@ -12,13 +13,18 @@ export class SideNavComponent implements OnInit {
   orderSize: number;
   constructor(
     private cartItemService: CartItemService,
-    public orderItemService: OrderItemService
+    public orderItemService: OrderItemService,
+    private router: Router
   ) {}
 
   ngOnInit(): void {
     this.cartSize = this.cartItemService.getCartSize();
     this.orderSize = this.orderItemService.getOrderSize();
   }
-  displayCart() {}
-  displayOrders() {}
+  displayCart() {
+    this.router.navigate(['/cart']);
+  }
+  displayOrders() {
+    this.router.navigate(['/orders']);
+  }
 }

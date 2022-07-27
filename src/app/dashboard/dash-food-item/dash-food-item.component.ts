@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { CartItemService } from 'src/app/cart/cart-item.service';
 import { FoodItem } from 'src/app/shared/food-item.model';
 
@@ -11,8 +12,13 @@ export class DashFoodItemComponent implements OnInit {
   @Input() foodItem: FoodItem;
   @Input() id;
 
-  constructor(private cartItemService: CartItemService) {}
+  constructor(
+    private cartItemService: CartItemService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {}
-  // addToCart() {}
+  addToCart() {
+    this.router.navigate(['/addtocart']);
+  }
 }
