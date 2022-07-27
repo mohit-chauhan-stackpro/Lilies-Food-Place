@@ -1,21 +1,24 @@
 <div class="container">
-  <div class="conatiner-items">
-    <p class="name">Your Orders</p>
-    <div class="item-details">
-      <div class="item">Item</div>
-      <div class="right-side-items">
-        <div class="qty">Qty</div>
-        <div class="price">Price</div>
-        <div class="status">Status</div>
+  <div class="conatiner-left"></div>
+  <div class="conatiner-right">
+    <div class="conatiner-right-items">
+      <p class="name">Your Orders</p>
+      <div class="item-details">
+        <div class="item">Item</div>
+        <div class="right-side-items">
+          <div class="qty">Qty</div>
+          <div class="price">Price</div>
+          <div class="status">Status</div>
+        </div>
       </div>
-    </div>
-    <!-- order items -->
-    <div class="order-items">
-      <app-order-item
-        *ngFor="let order of orders; let i = index"
-        [order]="order"
-        [id]="i"
-      ></app-order-item>
+      <!-- order items -->
+      <div class="order-items">
+        <app-order-item
+          *ngFor="let order of orders; let i = index"
+          [order]="order"
+          [id]="i"
+        ></app-order-item>
+      </div>
     </div>
   </div>
 </div>
