@@ -8,8 +8,10 @@
         <input id="inputbox" type="text" placeholder="Your Email address" />
         <input id="inputbox" type="text" placeholder="Your Password" />
       </div>
-      <button class="button">SIGNUP</button>
-      <p class="bottom-p">Already have an account. <a>LOGIN</a></p>
+      <button class="button" (click)="toDashboardPage()">SIGNUP</button>
+      <p class="bottom-p">
+        Already have an account. <a (click)="toDashLoginPage()">LOGIN</a>
+      </p>
     </div>
   </div>
 </div>
